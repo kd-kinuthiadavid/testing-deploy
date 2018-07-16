@@ -1,0 +1,25 @@
+h1
+{
+  color: green;
+  font-family: 'Roboto Slab', serif;
+}
+body{
+  font-family: 'Roboto Slab', serif;
+
+}
+.card{
+  margin-top: 20px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.small-name{
+  font-weight: bold;
+}
+.modal-span{
+  font-weight:bold;
+}
+.modal-image{
+  width: auto;
+}
+.my_modal{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
