@@ -1,0 +1,29 @@
+{%extends 'base.html'%}
+
+{% block content %}
+{{ block.super}}
+<div class="container-fluid">
+  {% for image in images %}
+  <div class="row">
+    <div class="col-md-10">
+      <div class="card">
+        <img class="img-responsive" src="{{image.image.url}}" alt="image">
+        <div class="card-body">
+            <small class="card_text">{{image.name}}</small>
+            <small class="card_text">{{image.description}}</small>
+            <small class="card_text">{{image.location}}</small>
+            <small class="card_text">{{image.post_date}}</small>
+            fgyufgogjkbjhfjkbkg
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  {% empty %}
+  <div class="row">
+    <h2 class="text-center">There're No Images</h2>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
