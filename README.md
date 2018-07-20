@@ -71,6 +71,10 @@ and integrate systems more effectively
 
 version 1.0.0
 
+## Bugs
+
+Search functionality only works if you search by description.
+
 ## Authors
 
 * **KINUTHIA DAVID**
