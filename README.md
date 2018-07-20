@@ -4,49 +4,51 @@ A web application where users can view differnt photos, click on a photo and a m
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+```
+git clone https://github.com/kd-kinuthiadavid/testing-deploy.git
+```
+```
+cd testing-deploy/
+```
+* activate virtual environment
+  ```
+  source virtual/bin/activate
+  ```
+* run the application
+```python3.6 manage.py runserver
+```
+See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+You need the following thongs to install this software:
+* You don't need to install anything as this is a web application, just follow [this link](https://kd-third-gallery.herokuapp.com/) to get run the application.
 
 ### Installing
 
-A step by step series of examples   that tell you how to get a development env running
-
-Say what the step will be
+The following are a step by step series of examples that tell you how to get a development env running:
 
 ```
-Give the example
+git clone https://github.com/kd-kinuthiadavid/testing-deploy.git
 ```
-
-And repeat
-
 ```
-until finished
+cd testing-deploy/
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+* activate virtual environment
+  ```
+  source virtual/bin/activate
+  ```
+* run the application
+```python3.6 manage.py runserver
 ```
-Give an example
-```
+See deployment for notes on how to deploy the project on a live system.
+
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+[Deploying this and other Django Apps to Heroku](https://gist.github.com/Benard18/01e28cfbd911f87c7df8ee33cbdaa593)
 
 ## Built With
 
