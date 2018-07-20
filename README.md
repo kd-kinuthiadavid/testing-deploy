@@ -12,11 +12,13 @@ git clone https://github.com/kd-kinuthiadavid/testing-deploy.git
 ```
 cd testing-deploy/
 ```
-* activate virtual environment
+activate virtual environment
+
   ```
   source virtual/bin/activate
   ```
-* run the application
+run the application
+
 ```python3.6 manage.py runserver
 ```
 See deployment for notes on how to deploy the project on a live system.
@@ -35,12 +37,16 @@ git clone https://github.com/kd-kinuthiadavid/testing-deploy.git
 ```
 ```
 cd testing-deploy/
+
 ```
-* activate virtual environment
+activate virtual environment
+
   ```
   source virtual/bin/activate
+  
   ```
-* run the application
+run the application
+
 ```python3.6 manage.py runserver
 ```
 See deployment for notes on how to deploy the project on a live system.
