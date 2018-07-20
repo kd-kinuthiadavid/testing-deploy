@@ -43,11 +43,13 @@ activate virtual environment
 
   ```
   source virtual/bin/activate
-  
+
   ```
 run the application
 
-```python3.6 manage.py runserver
+```
+python3.6 manage.py runserver
+
 ```
 See deployment for notes on how to deploy the project on a live system.
 
