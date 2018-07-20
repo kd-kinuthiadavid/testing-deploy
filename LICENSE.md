@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2018 [KINUTHIA DAVID] kd-kinuthiadavid
+Copyright (c) 2018 [KINUTHIA DAVID](https://github.com/kd-kinuthiadavid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
